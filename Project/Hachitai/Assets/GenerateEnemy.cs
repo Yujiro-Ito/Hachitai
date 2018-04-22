@@ -10,6 +10,7 @@ public class GenerateEnemy : MonoBehaviour {
     public int scoretarget =600;
     public int level=1;
     float generator;
+    float generatetarget;
     int enemytype;
     Vector3 enemyplace;
 
@@ -23,7 +24,7 @@ public class GenerateEnemy : MonoBehaviour {
         //スコア加算
         score += (int)(Time.deltaTime * (60+level*10));
         //スコアがターゲットを超えるとレベルアップ
-        if (score > scoretarget)
+        if (score > scoretarget&&level<9)
         {
             //ターゲットの更新
             scoretarget += (600 + level * 300);
@@ -35,18 +36,21 @@ public class GenerateEnemy : MonoBehaviour {
         switch (enemytype)
         {
             case 0:
-                enemyplace = new Vector3(Random.Range(-6f, 6f), Random.Range(-2f, 2f), 20);
+                enemyplace = new Vector3(Random.Range(-6f, 6f), Random.Range(-2f, 2f), 40);
                 break;
             case 1:
-                enemyplace = new Vector3(Random.Range(-5f, 5f), Random.Range(-3f, 3f), 20);
+                enemyplace = new Vector3(Random.Range(-5f, 5f), Random.Range(-3f, 3f), 40);
                 break;
             case 2:
-                enemyplace = new Vector3(Random.Range(-7f, 7f), Random.Range(-1f, 1f), 20);
+                enemyplace = new Vector3(Random.Range(-7f, 7f), Random.Range(-1f, 1f), 40);
                 break;
         }
 
         generator += Time.deltaTime;
-        if (generator > (3f - 0.3f * level))
+        generatetarget = 2f - 0.3f * level;
+        if (generatetarget < 0.25f)
+            generatetarget = 0.25f;
+        if (generator > generatetarget)
         {
             Instantiate(enemy[enemytype], enemyplace, Quaternion.identity);
             generator = 0;
