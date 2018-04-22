@@ -29,5 +29,14 @@ public class MouseTracking : MonoBehaviour {
         // 車をマウスに追従させる
         //gameObject.transform.position = screenToWorldPointPosition;
         transform.position = Vector2.MoveTowards(transform.position, new Vector2(screenToWorldPointPosition.x, screenToWorldPointPosition.y), (4*euclidean_distance) * Time.deltaTime);
+        //上下左右制限
+        if (transform.position.x > 8)
+            transform.position=new Vector3(8,transform.position.y,transform.position.z);
+        if (transform.position.x < -8)
+            transform.position = new Vector3(-8, transform.position.y, transform.position.z);
+        if (transform.position.y > 4)
+            transform.position = new Vector3(transform.position.x, 4, transform.position.z);
+        if (transform.position.y < -4)
+            transform.position = new Vector3(transform.position.x, -4, transform.position.z);
     }
 }
