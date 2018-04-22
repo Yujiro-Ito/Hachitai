@@ -13,14 +13,26 @@ public class GenerateEnemy : MonoBehaviour {
     float generatetarget;
     int enemytype;
     Vector3 enemyplace;
+    private Player _player;
 
 	// Use this for initialization
 	void Start () {
-		
+        _player = GameObject.Find("Car").GetComponent<Player>();
+        level = 1;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+        if(_player.Metor > 10000)
+        {
+            level = 2;
+        } else if(_player.Metor > 30000)
+        {
+            level = 3;
+        } else if(_player.Metor > 50000)
+        {
+            level = 4;
+        }
         //スコア加算
         score += (int)(Time.deltaTime * (60+level*10));
         //スコアがターゲットを超えるとレベルアップ

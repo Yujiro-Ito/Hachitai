@@ -814,255 +814,54 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.size
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 4938641318340866, guid: f25bc48dcbfe25047aa96260c2d617f0, type: 2}
+    - target: {fileID: 4155060422860848, guid: 82f37c7c8f572dd438ba7aeb48e68588, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4938641318340866, guid: f25bc48dcbfe25047aa96260c2d617f0, type: 2}
+    - target: {fileID: 4155060422860848, guid: 82f37c7c8f572dd438ba7aeb48e68588, type: 2}
       propertyPath: m_LocalPosition.y
       value: 44.566925
       objectReference: {fileID: 0}
-    - target: {fileID: 4938641318340866, guid: f25bc48dcbfe25047aa96260c2d617f0, type: 2}
+    - target: {fileID: 4155060422860848, guid: 82f37c7c8f572dd438ba7aeb48e68588, type: 2}
       propertyPath: m_LocalPosition.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 4938641318340866, guid: f25bc48dcbfe25047aa96260c2d617f0, type: 2}
+    - target: {fileID: 4155060422860848, guid: 82f37c7c8f572dd438ba7aeb48e68588, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4938641318340866, guid: f25bc48dcbfe25047aa96260c2d617f0, type: 2}
+    - target: {fileID: 4155060422860848, guid: 82f37c7c8f572dd438ba7aeb48e68588, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4938641318340866, guid: f25bc48dcbfe25047aa96260c2d617f0, type: 2}
+    - target: {fileID: 4155060422860848, guid: 82f37c7c8f572dd438ba7aeb48e68588, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4938641318340866, guid: f25bc48dcbfe25047aa96260c2d617f0, type: 2}
+    - target: {fileID: 4155060422860848, guid: 82f37c7c8f572dd438ba7aeb48e68588, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4938641318340866, guid: f25bc48dcbfe25047aa96260c2d617f0, type: 2}
+    - target: {fileID: 4155060422860848, guid: 82f37c7c8f572dd438ba7aeb48e68588, type: 2}
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
+    - target: {fileID: 114086512868489844, guid: 82f37c7c8f572dd438ba7aeb48e68588,
         type: 2}
       propertyPath: _questionStringJP_UI
       value: 
       objectReference: {fileID: 1567682614}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
+    - target: {fileID: 114086512868489844, guid: 82f37c7c8f572dd438ba7aeb48e68588,
         type: 2}
       propertyPath: _questionStringRM_UI
       value: 
       objectReference: {fileID: 313962486}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[10].jp
-      value: "\u7AF9\u3084\u3076\u713C\u3051\u305F"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[10].rm
-      value: takeyabuyaketa
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[11].jp
-      value: "\u7AF9\u3084\u3076\u713C\u3051\u305F"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[11].rm
-      value: takeyabuyaketa
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[12].jp
-      value: "\u4FFA\u306F\u5927\u6839\u3060\u3001\u571F\u304B\u3089\u6765\u305F"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[12].rm
-      value: orehadaikonda,tutikarakita
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[13].jp
-      value: "\u3088\u308D\u3057\u304F\u304A\u306D\u304C\u3044\u3057\u307E\u3059"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[13].rm
-      value: yorosikuonegaisimasu
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[14].jp
-      value: "\u4E00\u72E9\u308A\u3044\u3053\u3046\u305C\uFF01"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[14].rm
-      value: hitokariikouze!
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[15].jp
-      value: "\u72AF\u4EBA\u306F\u304A\u524D\u3060\uFF01"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[15].rm
-      value: hannninhaomaeda!
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[16].jp
-      value: "\u9999\u8F9B\u6599"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[16].rm
-      value: kousinryou
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[17].jp
-      value: "\u82F1\u8A9E\u306F\u5206\u304B\u308A\u307E\u305B\u3093"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[17].rm
-      value: eigohawakarimasenn
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[18].jp
-      value: "\u660E\u65E5\u3001\u96E8\u304C\u964D\u308A\u307E\u3059\u3002"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[18].rm
-      value: asita,amegahurimasu.
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[19].jp
-      value: "\u904A\u3073\u306B\u884C\u304D\u305F\u3044"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[19].rm
-      value: asobiniikitai
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[20].jp
-      value: "\u30D5\u30E9\u30A4\u30C9\u30DD\u30C6\u30C8\u306F\u6E29\u91CE\u83DC\u3068\u4E00\u7DD2"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[20].rm
-      value: huraidopotetohaonyasaitoissyo
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[21].jp
-      value: "\u30BF\u30A4\u4EBA\u306E\u53CB\u9054\u3068\u304A\u8CB7\u3044\u7269"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[21].rm
-      value: daijinnnootomodatitookaimono
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[22].jp
-      value: "\u4FEE\u5B66\u65C5\u884C\u3067\u306F\u5200\u3092\u307F\u3093\u306A\u8CB7\u3046"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[22].rm
-      value: syuugakuryokoudehakatanawominnnakau
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[23].jp
-      value: "\u660E\u65E5\u304B\u3089\u9811\u5F35\u308B"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[23].rm
-      value: asitakaragannbaru
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[24].jp
-      value: "\u30EA\u30F3\u30B4\u306F\u713C\u3044\u305F\u3089\u713C\u304D\u30EA\u30F3\u30B4"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[24].rm
-      value: rinngohayaitarayakirinngo
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[25].jp
-      value: "\u30A2\u30E0\u30ED\u3001\u884C\u304D\u307E\u30FC\u3059\uFF01"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[25].rm
-      value: amuro,ikima-su!
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[26].jp
-      value: "\u30AB\u30E1\u30CF\u30E1\u30CF\u5927\u738B"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[26].rm
-      value: kamehamehadaiou
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[27].jp
-      value: "\u30B9\u30E9\u30A4\u30E0\u306B\u3084\u3089\u308C\u305F"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[27].rm
-      value: suraimuniyarareta
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[28].jp
-      value: "\u306F\u3061\u307F\u3064\u304F\u3060\u3055\u3044"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[28].rm
-      value: hatimitukudasai
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[29].jp
-      value: "\u305F\u3060\u3057\u3001\u30A4\u30B1\u30E1\u30F3\u306B\u9650\u308B"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114529954440392770, guid: f25bc48dcbfe25047aa96260c2d617f0,
-        type: 2}
-      propertyPath: _textResources.Array.data[29].rm
-      value: tadasi,ikemennnikagiru
+    - target: {fileID: 1107717636272716, guid: 82f37c7c8f572dd438ba7aeb48e68588, type: 2}
+      propertyPath: m_Name
+      value: TypingManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: f25bc48dcbfe25047aa96260c2d617f0, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 82f37c7c8f572dd438ba7aeb48e68588, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1022828263
 GameObject:

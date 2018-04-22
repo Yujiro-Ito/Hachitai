@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour {
     //----const----
     public const float MAX_FUEL = 1000;
-    public const float SUB_FUEL = 100f;
+    public const float SUB_FUEL = 50f;
     public const float ADD_FUEL = 200f;
     public const float HIT_ENEMY_FUEL = 200f;
     public const float SPEED_PER_SECOND = 340;
@@ -22,6 +22,7 @@ public class Player : MonoBehaviour {
     private MeshRenderer _meshRenderer;
     public Slider _slider;
     public Text _metorText;
+    public float Metor { get { return _metor; } }
 
 	// Use this for initialization
 	void Start () {
