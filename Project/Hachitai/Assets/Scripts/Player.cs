@@ -8,8 +8,8 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour {
     //----const----
     public const float MAX_FUEL = 1000;
-    public const float SUB_FUEL = 150f;
-    public const float ADD_FUEL = 400f;
+    public const float SUB_FUEL = 100f;
+    public const float ADD_FUEL = 200f;
     public const float HIT_ENEMY_FUEL = 200f;
     public const float SPEED_PER_SECOND = 340;
     //----fields----
