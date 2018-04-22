@@ -26,10 +26,10 @@ public class GenerateEnemy : MonoBehaviour {
         if(_player.Metor > 10000)
         {
             level = 2;
-        } else if(_player.Metor > 30000)
+        } else if(_player.Metor > 15000)
         {
             level = 3;
-        } else if(_player.Metor > 50000)
+        } else if(_player.Metor > 25000)
         {
             level = 4;
         }

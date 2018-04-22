@@ -860,6 +860,11 @@ Prefab:
       propertyPath: m_Name
       value: TypingManager
       objectReference: {fileID: 0}
+    - target: {fileID: 114086512868489844, guid: 82f37c7c8f572dd438ba7aeb48e68588,
+        type: 2}
+      propertyPath: _textResources.Array.data[21].rm
+      value: taijinnnootomodatitookaimono
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82f37c7c8f572dd438ba7aeb48e68588, type: 2}
   m_IsPrefabParent: 0
@@ -1026,7 +1031,7 @@ GameObject:
   - component: {fileID: 1045170004}
   - component: {fileID: 1045170003}
   m_Layer: 0
-  m_Name: "\u516B\u8010 \u30B9\u30DA\u30FC\u30B9\u30BF\u30A4\u30D4\u30F3\u30B0"
+  m_Name: Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
