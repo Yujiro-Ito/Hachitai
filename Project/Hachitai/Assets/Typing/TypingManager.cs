@@ -30,10 +30,12 @@ public class TypingManager : MonoBehaviour {
     private string _questionStringRM;
     private int _currentIndex;
     private int _continueCorrect;
+    private Player _player;
 
 	// Use this for initialization
 	void Start () {
         CreateNewQuestion();
+        _player = GameObject.FindObjectOfType<Player>();
 	}
 	
 	// Update is called once per frame
@@ -105,6 +107,7 @@ public class TypingManager : MonoBehaviour {
     public void AllCorrect()
     {
         _continueCorrect++;
+        _player.GetFuel();
         Debug.Log("「" + _questionStringJP_UI.text.ToString() + "」を打ち終えました");
     }
 
